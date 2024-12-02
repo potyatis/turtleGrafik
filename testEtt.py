@@ -11,7 +11,7 @@ t.color("white","yellow")
 t.width(2)
 t.speed(0)
 
-def draw_star(t_obj,x, y, size):
+def draw_star(t_obj : turtle,x, y, size):
     angle = 120
     t_obj.penup()
     t_obj.goto(x,y)
